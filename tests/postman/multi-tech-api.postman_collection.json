@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "Multi-Tech API Demo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Hello (Node)",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/api/hello"
+      }
+    },
+    {
+      "name": "Hello (C#)",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/hello"
+      }
+    }
+  ]
+}
